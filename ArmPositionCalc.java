@@ -1,12 +1,12 @@
 // Note: This is an alternative version of the primary file
 // Every angle is in radians
 
-public class ArmPositionCalcAltVersion {
-    private static final double length; // The length of the first and second segments
-    private static final double maxReach; // The maximum reach of the arm
-    private static final double maxRotation; // The maximum rotation for every pivot
+public class ArmPositionCalc {
+    private static double length; // The length of the first and second segments
+    private static double maxReach; // The maximum reach of the arm
+    private static double maxRotation; // The maximum rotation for every pivot
 
-    public ArmPositionCalcAltVersion(double l, double rot) {
+    public ArmPositionCalc(double l, double rot) {
         length = l;
 
         maxReach = 2*length;
